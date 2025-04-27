@@ -5,8 +5,8 @@ This project is a simple **Text-to-Image Generator** that uses **Stable Diffusio
 You can type any prompt (like "a sunset over the mountains"), and the model will generate an image based on your description.
 
 ## Demo
+👉 [Try the Text-to-Image Generator here](https://huggingface.co/spaces/qahir00/text-to-image-generator)
 
-(Coming soon on Hugging Face Spaces!)
 
 ## How it works
 
@@ -14,9 +14,4 @@ You can type any prompt (like "a sunset over the mountains"), and the model will
 - The model is loaded using the `diffusers` library.
 - The interface is created with `gradio` for easy interaction.
 
-## Installation
 
-1. Install the required libraries:
-
-```bash
-pip install torch diffusers gradio
